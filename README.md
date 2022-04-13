@@ -1,4 +1,7 @@
 # Description
+Assuming clean Ubuntu 20.04 LTS installation (Normal, 3rd party prop drivers)
+
+This set of scripts will prepare enviroment to work with:
 * Python 3.7.13
 * CUDA 11.0
 * cuDNN 8.4
