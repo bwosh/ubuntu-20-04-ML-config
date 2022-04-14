@@ -8,7 +8,7 @@ Clean Ubuntu 20.04 LTS installation (Normal, w/ 3rd party prop drivers)
 Script below updats system, installs some libraries, compiles Python 3.7 from source code.
 
 ```bash
-bash 1_basics.sh
+sudo bash 1_basics.sh
 ```
 
 # NVidia GPU Driver
@@ -16,7 +16,7 @@ bash 1_basics.sh
 Script below is installing NVidia GPU driver valid for this configuration.
 
 ```bash
-bash 2_gpu_driver.sh
+sudo bash 2_gpu_driver.sh
 ```
 
 **System REBOOT is needed now**
@@ -30,7 +30,7 @@ Prerequisites for this step:
 * cudnn-linux-x86_64-8.4.0.27_cuda11.6-archive.tar.xz (from here: https://developer.nvidia.com/rdp/cudnn-download)
 
 ```bash
-bash 3_cuda.sh
+sudo bash 3_cuda.sh
 ```
 
 
@@ -47,5 +47,5 @@ Some highlights:
 * Nltk 3.7
 
 ```bash
-bash 4_new_env.sh
+sudo bash 4_new_env.sh
 ```
